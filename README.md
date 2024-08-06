@@ -10,7 +10,7 @@ Olá! Meu nome é **Guilherme Braga**. Sou aluno do 4 Semestre do curso de Cienc
 meu e-mail institucional:
 
 [![Gmail Logo](https://upload.wikimedia.org/wikipedia/commons/4/42/Gmail_Icon.png)](mailto:guilherme.bragam@sempreceub.com)
-**guilherme.bragam@sempreceub.com**: [guilherme.bragam@sempreceub.com.](mailto:guilherme.bragam@sempreceub.com)
+**guilherme.bragam@sempreceub.com**: [guilherme.bragam@sempreceub.com.]
 
 ## Tecnologias e Linguagens
 
