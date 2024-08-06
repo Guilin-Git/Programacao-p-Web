@@ -5,6 +5,7 @@
 ## Sobre Mim
 
 Olá! Meu nome é **Guilherme Braga**. Sou aluno do 4º Semestre do curso de Ciência da Computação no CEUB e este é meu repositório da matéria de Programação para Web.
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
 
 ## Email
 
