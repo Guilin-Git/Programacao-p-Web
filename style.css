@@ -1,0 +1,75 @@
+/* Define o fundo da página como lilás */
+body {
+    background-color: #E6E6FA; /* Cor lilás clara */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura total da viewport */
+    position: relative; /* Necessário para posicionamento absoluto da imagem */
+}
+
+/* Estiliza a div com a classe "texto" */
+.texto {
+    background-color: #FFFFFF; /* Fundo branco para a div */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 300px; /* Largura fixa da div */
+    text-align: center; /* Centraliza o texto dentro da div */
+    position: relative; /* Garante que o conteúdo da div se sobreponha à imagem */
+    z-index: 1; /* Garante que a div com o texto esteja sobre a imagem */
+}
+
+/* Estilo para títulos */
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Estilo para labels e inputs */
+label, input {
+    display: block; /* Garante que cada item ocupe uma linha inteira */
+    width: calc(100% - 20px); /* Ajusta a largura dos campos, levando em conta o padding */
+    margin: 10px auto; /* Margem automática para centralizar os elementos */
+}
+
+/* Estilo específico para inputs */
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #4CAF50; /* Cor verde do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse sobre o botão */
+}
+
+/* Estilo para a imagem no canto esquerdo da página */
+.logo {
+    position: fixed; /* Fixa a imagem na tela */
+    top: 0; /* Alinha a imagem ao topo da página */
+    left: 0; /* Alinha a imagem ao lado esquerdo da página */
+    width: 100vw; /* Largura da imagem igual à largura da viewport */
+    height: 100vh; /* Altura da imagem igual à altura da viewport */
+    overflow: hidden; /* Garante que a imagem não saia da tela */
+    z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
+}
+
+.logo img {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+    height: 100%; /* Ajusta a altura da imagem para 100% do contêiner */
+    object-fit: cover; /* Faz com que a imagem cubra o contêiner, mantendo a proporção */
+}
