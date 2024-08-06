@@ -11,8 +11,8 @@ Olá! Meu nome é **Guilherme Braga**. Sou aluno do 4º Semestre do curso de Ci�
 
 Meu e-mail institucional:
 
-- [![Gmail Logo](https://img.shields.io/badge/Gmail-4285F4?style=flat&logo=gmail&logoColor=white)](mailto:guilherme.bragam@sempreceub.com)
-**guilherme.bragam@sempreceub.com**
+- [![Gmail Logo](https://img.shields.io/badge/Gmail-4285F4?style=flat&logo=gmail&logoColor=white)]
+    guilherme.bragam@sempreceub.com
 
 ## Tecnologias e Linguagens
 
